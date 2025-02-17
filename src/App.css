@@ -1,0 +1,82 @@
+.welcome-page-container{
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+}
+.welcome-left-side {
+  background-image: url('./assets/pexels-steve-30727821.jpg');
+  background-size: cover;
+  color: white;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+}
+
+.welcome-right-side {
+  display: flex;
+  width: 60%;
+  color:white;
+  height: 100vh;
+  background-color: rgb(35, 35, 43);
+}
+
+.welcome-text{
+  margin-top: 30%;
+  margin-bottom: auto;
+  margin-left: 10%;
+  padding: 1rem;
+  font-size: xx-large;
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+.sign-in-form{
+  margin-top: 20%;
+  width: 50%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: xx-large;
+
+}
+.sign-in-form h1 {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
+
+.sign-in-form label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin: 0.5rem 0 0.3rem;
+}
+
+.sign-in-form input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.sign-in-form input:focus {
+  outline: 2px solid rgb(100, 149, 237);
+}
+
+.sign-in-form button {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: white;
+  background: rgb(100, 149, 237);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 3rem;
+}
+
+.sign-in-form button:hover {
+  background: rgb(70, 130, 200);
+}
